@@ -1,4 +1,11 @@
 # Neural Networks SVG Generator
+
+## What it looks like
+
+With command: `python main.py -f "test" -r "2000x1200" -nodes "2 8 3" -hidden "3" -colors "seagreen black royalblue gray"`
+
+![Neural Network example](static/test.svg)
+
 ## Commands
 ### Running the program
 ``` bash
