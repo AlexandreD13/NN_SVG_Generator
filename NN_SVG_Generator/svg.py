@@ -78,7 +78,7 @@ def write_captions(drawing, resolution: tuple, nb_layers_total: int):
     """
 
     horizontal_div_width: float = (resolution[0] - (PADDING * 2)) / nb_layers_total
-    text = drawing.add(drawing.g(font_size=32))
+    text = drawing.add(drawing.g(font_size=32, fill="white"))
     for i in range(0, nb_layers_total):
         layers_xpos.append(PADDING + (horizontal_div_width / 2) + horizontal_div_width * i)
         if i == 0:

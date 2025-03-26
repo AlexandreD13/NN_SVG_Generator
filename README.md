@@ -1,5 +1,9 @@
 # Neural Networks SVG Generator
 
+---
+
+A small tool to generate SVGs of what a neural network conceptually looks like.
+
 ## What it looks like
 
 With command: `python main.py -f "test" -r "2000x1200" -nodes "2 8 3" -hidden "3" -colors "seagreen black royalblue gray"`
